@@ -39,14 +39,4 @@ python main.py
 The loss and accuracy for the training and validation at every epoch will be printed to ```stdout``` and the best model will be saved to the current directory.
 If the ```use_wandb``` parameter is set to ```True```, a more detailed log will be available at the wandb project specified in the configuration.
 
-## Publications and Citation
-If you use this architecture in your work, please consider to cite it as follows:
-```
-@article{hammouamri2023learning,
-  title={Learning Delays in Spiking Neural Networks using Dilated Convolutions with Learnable Spacings},
-  author={Hammouamri, Ilyass and Khalfaoui-Hassani, Ismail and Masquelier, Timoth{\'e}e},
-  journal={arXiv preprint arXiv:2306.17670},
-  year={2023}
-}
 
-```
